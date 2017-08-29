@@ -1,0 +1,2 @@
+IndexPage-xpath="html/body/div[1]/div[2]/div/ul/li[1]/a" -> output/screenshots/IndexPage/IndexPage-26.png
+IndexPage-xpath="html/body/div[1]/div[3]/div/div[1]/div/h2" -> output/screenshots/IndexPage/IndexPage-30.png
