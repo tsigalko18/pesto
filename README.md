@@ -21,7 +21,7 @@ A `TestSuiteRunner` class is also available in the package `pesto`. The `classRu
 
 The tool and its empirical evaluation have been part in the following res.
 
-- Maurizio Leotta, Andrea Stocco, Filippo Ricca, Paolo Tonella. **Automated Generation of Visual Web Tests from DOM-based Web Tests.** _Proceedings of 30th ACM/SIGAPP Symposium on Applied Computing (SAC 2015)_, 13-17 April, 2015, Salamanca, Spain, pp.775-782, ACM, 2015. [DOI](10.1145/2695664.2695847) bib()
+- Maurizio Leotta, Andrea Stocco, Filippo Ricca, Paolo Tonella. **Automated Generation of Visual Web Tests from DOM-based Web Tests.** _Proceedings of 30th ACM/SIGAPP Symposium on Applied Computing (SAC 2015)_, 13-17 April, 2015, Salamanca, Spain, pp.775-782, ACM, 2015. [DOI](10.1145/2695664.2695847)
 
 - Andrea Stocco, Maurizio Leotta, Filippo Ricca, Paolo Tonella.
 **PESTO: A Tool for Migrating DOM-based to Visual Web Tests.** _Proceedings of 14th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2014)_, 28-29 September 2014, Victoria, British Columbia, Canada, pp.65-70, IEEE, 2014. [DOI](10.1109/SCAM.2014.36)
