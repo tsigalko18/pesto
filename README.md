@@ -25,10 +25,3 @@ The tool and its empirical evaluation have been part in the following res.
 
 - Andrea Stocco, Maurizio Leotta, Filippo Ricca, Paolo Tonella.
 **PESTO: A Tool for Migrating DOM-based to Visual Web Tests.** _Proceedings of 14th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2014)_, 28-29 September 2014, Victoria, British Columbia, Canada, pp.65-70, IEEE, 2014. [DOI](10.1109/SCAM.2014.36)
-
----
-bibliography: mybib.bib
-nocite: '@*'
-...
-
-# Bibliography
