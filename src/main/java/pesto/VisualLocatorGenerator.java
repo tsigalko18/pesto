@@ -42,14 +42,6 @@ public class VisualLocatorGenerator {
 	@Before("call(* org.openqa.selenium.WebDriver.manage())")
 	public void logBeforeWebDriverManage(JoinPoint joinPoint) {
 
-//		System.out.println(Settings.OUTPUT_FOLDER);
-//		System.out.println(Settings.PO_SELENIUM_FOLDER);
-//		System.out.println(Settings.PO_SIKULI_FOLDER);
-//		System.out.println(Settings.SCREENSHOTS_FOLDER);
-//		System.out.println(Settings.LOCATORS_FILE);
-//		
-//		System.exit(1);
-		
 		locFile = new File(Settings.LOCATORS_FILE);
 
 		File theDir = new File(Settings.SCREENSHOTS_FOLDER);
@@ -98,10 +90,10 @@ public class VisualLocatorGenerator {
 	public void clickInterceptor(JoinPoint joinPoint) {
 
 		if (Settings.CAPTURE_CLICKS) {
-			System.out.println("[LOG] selenium.WebElement.click() interception is enabled");
+			System.out.println("[LOG]\tselenium.WebElement.click() interception is enabled");
 			visualLocatorCreator(joinPoint);
 		} else {
-			System.out.println("[LOG] selenium.WebElement.click() interception is disabled");
+			System.out.println("[LOG]\tselenium.WebElement.click() interception is disabled");
 		}
 
 	}
@@ -118,10 +110,10 @@ public class VisualLocatorGenerator {
 	public void sendKeysInterceptor(JoinPoint joinPoint) {
 
 		if (Settings.CAPTURE_SENDKEYS) {
-			System.out.println("[LOG] selenium.WebElement.sendKeys() interception is enabled");
+			System.out.println("[LOG]\tselenium.WebElement.sendKeys() interception is enabled");
 			visualLocatorCreator(joinPoint);
 		} else {
-			System.out.println("[LOG] selenium.WebElement.sendKeys() interception is disabled");
+			System.out.println("[LOG]\tselenium.WebElement.sendKeys() interception is disabled");
 		}
 
 	}
@@ -138,10 +130,10 @@ public class VisualLocatorGenerator {
 	public void getTextInterceptor(JoinPoint joinPoint) {
 
 		if (Settings.CAPTURE_GETTEXT) {
-			System.out.println("[LOG] selenium.WebElement.getText() interception is enabled");
+			System.out.println("[LOG]\tselenium.WebElement.getText() interception is enabled");
 			visualLocatorCreator(joinPoint);
 		} else {
-			System.out.println("[LOG] selenium.WebElement.getText() interception is disabled");
+			System.out.println("[LOG]\tselenium.WebElement.getText() interception is disabled");
 		}
 
 	}
@@ -158,10 +150,10 @@ public class VisualLocatorGenerator {
 	public void selectInterceptor(JoinPoint joinPoint) {
 
 		if (Settings.CAPTURE_SELECT) {
-			System.out.println("[LOG] selenium.support.ui.Select.selectByVisibleText interception is enabled");
+			System.out.println("[LOG]\tselenium.support.ui.Select.selectByVisibleText interception is enabled");
 			visualLocatorCreator(joinPoint);
 		} else {
-			System.out.println("[LOG] selenium.support.ui.Select.selectByVisibleText interception is disabled");
+			System.out.println("[LOG]\tselenium.support.ui.Select.selectByVisibleText interception is disabled");
 		}
 
 	}
@@ -178,10 +170,10 @@ public class VisualLocatorGenerator {
 	public void clearInterceptor(JoinPoint joinPoint) {
 
 		if (Settings.CAPTURE_CLEAR) {
-			System.out.println("[LOG] selenium.WebElement.clear interception is enabled");
+			System.out.println("[LOG]\tselenium.WebElement.clear interception is enabled");
 			visualLocatorCreator(joinPoint);
 		} else {
-			System.out.println("[LOG] selenium.WebElement.clear interception is disabled");
+			System.out.println("[LOG]\tselenium.WebElement.clear interception is disabled");
 		}
 
 	}

@@ -21,7 +21,7 @@ public class Settings {
 	public static String PO_SIKULI_FOLDER = "src" + fileSep + "main" + fileSep + "resources" + fileSep + "poSikuli"
 			+ fileSep;
 
-	/* DOM-based commands PESTO should managed. */
+	/* DOM-based commands PESTO manages. */
 	public static boolean CAPTURE_CLICKS = true;
 	public static boolean CAPTURE_SENDKEYS = true;
 	public static boolean CAPTURE_GETTEXT = true;
